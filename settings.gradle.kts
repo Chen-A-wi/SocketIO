@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "SocketIO"
-include ':app'
+include(":app")
