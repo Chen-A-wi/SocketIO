@@ -10,12 +10,13 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.awilab.socketio.ui.theme.SocketIOTheme
 
 @Composable
-fun MainPage() {
+fun MainScreen() {
     Surface(
         modifier = Modifier.fillMaxSize(),
         color = MaterialTheme.colorScheme.background
     ) {
         Greeting("Android")
+//        BaseCenterBar(barTitle = "MainScreen")
     }
 }
 
