@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "SocketIO"
 include(":app")
+include(":BaseModules:network")
+include(":BaseModules:common")
+include(":BaseModules:testing")
