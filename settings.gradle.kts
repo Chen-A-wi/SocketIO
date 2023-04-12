@@ -12,6 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "SocketIO"
 include(":app")
 include(":BaseModules:network")
