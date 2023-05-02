@@ -70,8 +70,12 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling:1.4.1")
     debugImplementation("androidx.compose.ui:ui-test-manifest:1.4.1")
 
+    //region Amplify
     implementation("com.amplifyframework:core:2.6.0")
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.3")
+    //endregion
+
+    implementation("com.amazonaws:aws-android-sdk-SERVICE:2.67.0")
 
     implementation(project(":BaseModules:common"))
     implementation(project(":BaseModules:network"))
