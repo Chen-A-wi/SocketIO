@@ -75,7 +75,13 @@ dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.3")
     //endregion
 
-    implementation("com.amazonaws:aws-android-sdk-SERVICE:2.67.0")
+    // AWSMobileClient
+    implementation("com.amazonaws:aws-android-sdk-mobile-client:2.65.0")
+    implementation("com.amazonaws:aws-android-sdk-iot:2.19.0")
+
+    implementation("com.amazonaws:aws-android-sdk-auth-userpools:2.65.0")
+    implementation("com.amazonaws:aws-android-sdk-auth-ui:2.65.0")
+    implementation("com.amazonaws:aws-android-sdk-cognitoauth:2.65.0")
 
     implementation(project(":BaseModules:common"))
     implementation(project(":BaseModules:network"))
